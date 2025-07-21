@@ -1,23 +1,20 @@
-import { useState } from "react";
-
+import QrcodeImage from "./assets/images/image-qr-code.png";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)} type="button">
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+    <article className="qrcode">
+      <figure className="qrcode--figure">
+        <img alt="qrcode" src={QrcodeImage} />
+      </figure>
+      <div className="qrcode--details">
+        <h1 className="qrcode--details--title">
+          Improve your front-end skills by building projects
+        </h1>
+        <p className="qrcode--details--description">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </article>
   );
 }
 

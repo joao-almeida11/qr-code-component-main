@@ -7,3 +7,10 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}

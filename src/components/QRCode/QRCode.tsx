@@ -1,4 +1,4 @@
-import QRCodeImage from "../assets/images/image-qr-code.png";
+import QRCodeImage from "../../assets/images/image-qr-code.png";
 
 export default function QRCode() {
   return (

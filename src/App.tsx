@@ -1,4 +1,4 @@
-import QRCode from "./components/QRCode";
+import QRCode from "./components/QRCode/QRCode";
 function App() {
   return (
     <main>

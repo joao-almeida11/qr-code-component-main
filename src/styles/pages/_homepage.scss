@@ -1,0 +1,9 @@
+@use "../utils" as utils;
+
+main {
+  background-color: utils.$color-white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
